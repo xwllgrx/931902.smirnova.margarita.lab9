@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+
+.calculator {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    border: 5px solid skyblue;
+}
+
+#field {
+    width: 330px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 2px;
+    padding: 5px;
+    cursor: default;
+    text-align: end;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    margin: 3px;
+    background-color: -webkit-linear-gradient(white, lightgrey);
+    cursor: pointer;
+    border: 1px solid grey;
+}
